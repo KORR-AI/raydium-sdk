@@ -1,6 +1,6 @@
-import { TOKEN_2022_PROGRAM_ID } from '@solana/spl-token'
-import { PublicKey, TransactionInstruction } from '@solana/web3.js'
-import BN from 'bn.js'
+import { TOKEN_2022_PROGRAM_ID } from '@solana/spl-token';
+import { PublicKey, TransactionInstruction } from '@solana/web3.js';
+import BN from 'bn.js';
 
 import {
   ASSOCIATED_TOKEN_PROGRAM_ID,
@@ -9,9 +9,20 @@ import {
   RENT_PROGRAM_ID,
   SYSTEM_PROGRAM_ID,
   TOKEN_PROGRAM_ID,
-} from '../common'
-import { ZERO, parseBigNumberish } from '../entity'
-import { bool, s32, struct, u128, u64, u8 } from '../marshmallow'
+} from '../common';
+import { ZERO, parseBigNumberish } from '../entity';
+import { bool, s32, struct, u128, u64, u8 } from '../marshmallow';
+
+// Your existing code...
+
+// Example function using TOKEN_2022_PROGRAM_ID
+function exampleFunction() {
+  console.log(TOKEN_2022_PROGRAM_ID);
+}
+
+// Additional functions and logic...
+
+
 
 const anchorDataBuf = {
   createPool: [233, 146, 209, 142, 207, 104, 64, 188],
